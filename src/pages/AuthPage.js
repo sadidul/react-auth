@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import AuthForm from "../components/Auth/AuthForm";
 
 export default function AuthPage() {
-    return (
-        <div>
-            <h1>Authentication</h1>
-        </div>
-    )
+  return (
+    <div>
+      <AuthForm />
+    </div>
+  );
 }
